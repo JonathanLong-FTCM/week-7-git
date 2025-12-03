@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Country Information</h2>
+      <select id="country-select" onchange="country(value)">
+        <option value="">--select--</option>
+        <option value="Australia">Australia</option>
+        <option value="Japan">Japan</option>
+        <option value="Poland">Poland</option>
+        <option value="Vietnam">Vietnam</option>
+        <option value="Brazil">Brazil</option>
+      </select>
+      <img id="loading-spinner" src="https://frontend-mtft.infinityfreeapp.com/week6/loading.gif" alt="Loading Spinner">
+      <table>
+        <tbody>
+          <tr><td>Name</td><td id="name"></td></tr>
+          <tr><td>Official name</td><td id="official-name"></td></tr>
+          <tr><td>Capital city</td><td id="capital"></td></tr>
+          <tr><td>Language</td><td id="language"></td></tr>
+          <tr><td>Google Map Link</td><td id="map"></td></tr>
+          <tr><td>Population</td><td id="population"></td></tr>
+          <tr><td>Flag</td><td id="flag"></td></tr>
+          <tr><td>Capital City Latitude & Longitude</td><td id="coordinate"></td></tr>
+          <tr><td>Capital City total rainfall (24h)</td><td id="rainfall"></td></tr>
+          <tr><td>Capital City average temperature (24h)</td><td id="temperature"></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
