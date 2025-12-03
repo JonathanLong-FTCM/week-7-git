@@ -56,7 +56,7 @@ async function country() {
         
     } catch (error) {
         const output = document.getElementById('output');
-        if (output) output.textContent = 'Error: ' + error.message;
+        if (output) output.textContent = 'Error';
     }
     finally {
         loadingSpinner(false);
